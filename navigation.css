@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
+
+}
+.navbar{
+    background-color:white;
+    color:#fff;
+    padding:15px 20px;
+    transition:background-color 0.3s ease;
+
+}
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+
+}
+.navbar ul li{
+    margin:0 15px;
+
+
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347;
+}
+
+.section {
+    height: 100vh;
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#home {
+    background-color: #3498db;
+}
+
+#about {
+    background-color: #e74c3c;
+}
+
+#services {
+    background-color: #2ecc71;
+}
+
+#contact {
+    background-color: #f39c12;
+}
+
+.scrolled {
+    background-color: #555 !important; /* Change navbar color on scroll */
+}
